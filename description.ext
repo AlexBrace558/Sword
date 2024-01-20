@@ -1,0 +1,34 @@
+author			= "Tiber Brutus";
+onLoadName		= "Operation Sword";
+onLoadMission	= "Malden Special Forces Raid Insurgent Hideouts";
+loadScreen		= "background.jpg";
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Operation Success";
+		subtitle = "";
+		description = "Thanks to efforts of task force Spartan the MLF have been dealt a heavy loss. The task force were also able to capture a laptop which is currently under cyber forensics, but initial analysis reveals that the laptop contained vital information pertaining to the MLFs supply of weapons.";
+		pictureBackground = "background.jpg";
+	};
+};
+
+class CfgSounds
+
+{
+
+ tracks[]={};
+
+ class Track01
+ {
+
+  name = "Track01";
+
+  sound[] = {"\Track01.wav", 250, 1.0};
+
+  titles[] = {};
+
+ };
+
+};
